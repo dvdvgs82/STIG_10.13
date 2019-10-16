@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.digihub</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>com.apple.digihub.blank.cd.appeared</key>
+								<dict>
+									<key>action</key>
+									<integer>1</integer>
+								</dict>
+								<key>com.apple.digihub.blank.dvd.appeared</key>
+								<dict>
+									<key>action</key>
+									<integer>1</integer>
+								</dict>
+								<key>com.apple.digihub.cd.music.appeared</key>
+								<dict>
+									<key>action</key>
+									<integer>1</integer>
+								</dict>
+								<key>com.apple.digihub.cd.picture.appeared</key>
+								<dict>
+									<key>action</key>
+									<integer>1</integer>
+								</dict>
+								<key>com.apple.digihub.dvd.video.appeared</key>
+								<dict>
+									<key>action</key>
+									<integer>1</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.digihub)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>DD55BA3B-019D-4473-9CB8-A88DCCD661AA</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>DD55BA3B-019D-4473-9CB8-A88DCCD661AA</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AOSX_13_000085 - Custom payload &gt; com.apple.digihub.blank.cd.appeared &gt; action=1
+AOSX_13_000090 - Custom payload &gt; com.apple.digihub.blank.dvd.appeared &gt; action=1
+AOSX_13_000095 - Custom payload &gt; com.apple.digihub.cd.music.appeared &gt; action=1
+AOSX_13_000100 - Custom payload &gt; com.apple.digihub.cd.picture.appeared &gt; action=1
+AOSX_13_000105 - Custom payload &gt; com.apple.digihub.dvd.video.appeared &gt; action=1</string>
+	<key>PayloadDisplayName</key>
+	<string>10.13 STIG - Disable com.apple.digihub</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>CE213A38-E820-48CD-8284-75B5445DFDD9</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>CE213A38-E820-48CD-8284-75B5445DFDD9</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

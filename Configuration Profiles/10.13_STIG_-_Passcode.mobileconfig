@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Passcode</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>0FE6E909-27A7-40E0-B129-309B9EF80D78</string>
+			<key>PayloadType</key>
+			<string>com.apple.mobiledevice.passwordpolicy</string>
+			<key>PayloadUUID</key>
+			<string>0FE6E909-27A7-40E0-B129-309B9EF80D78</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>allowSimple</key>
+			<false/>
+			<key>forcePIN</key>
+			<true/>
+			<key>maxFailedAttempts</key>
+			<integer>3</integer>
+			<key>maxGracePeriod</key>
+			<integer>0</integer>
+			<key>maxPINAgeInDays</key>
+			<integer>60</integer>
+			<key>minComplexChars</key>
+			<integer>1</integer>
+			<key>minLength</key>
+			<integer>15</integer>
+			<key>minutesUntilFailedLoginReset</key>
+			<integer>15</integer>
+			<key>pinHistory</key>
+			<integer>5</integer>
+			<key>requireAlphanumeric</key>
+			<true/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AOSX_13_000585 - Passcode payload &gt; Require alphanumeric value (checked)
+AOSX_13_000587 - Passcode payload &gt; MINIMUM NUMBER OF COMPLEX CHARACTERS 1
+AOSX_13_000587 - Passcode payload &gt; Allow simple value (unchecked)
+AOSX_13_000590 - Passcode payload &gt; MINIMUM PASSCODE LENGTH 15
+AOSX_13_001324 - Passcode payload &gt; DELAY AFTER FAILED LOGIN ATTEMPTS 15
+AOSX_13_001325 - Passcode payload &gt; MAXIMUM NUMBER OF FAILED ATTEMPTS 3
+AOSX_13_002085 - Passcode payload &gt; MAXIMUM PASSCODE AGE 60
+AOSX_13_002090 - Passcode payload &gt; PASSCODE HISTORY 5</string>
+	<key>PayloadDisplayName</key>
+	<string>10.13 STIG - Passcode</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>92BFE713-245D-4D66-AE66-EDD9D95C9551</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>92BFE713-245D-4D66-AE66-EDD9D95C9551</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

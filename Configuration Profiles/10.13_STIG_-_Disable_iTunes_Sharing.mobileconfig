@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.itunes</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>disableSharedMusic</key>
+								<true/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Custom: (com.apple.itunes)</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>4CDC8432-67B6-4CE7-B1A7-13AD3C22BA67</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>4CDC8432-67B6-4CE7-B1A7-13AD3C22BA67</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.applicationaccess</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>allowiTunesFileSharing</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Custom</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>4541E958-8CEC-4D75-9FDA-8D8D0515A4F8</string>
+			<key>PayloadOrganization</key>
+			<string>benfer.com</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>4541E958-8CEC-4D75-9FDA-8D8D0515A4F8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>AOSX_13_000862 -Custom payload &gt; com.apple.applicationaccess &gt; allowiTunesFileSharing=false
+AOSX_13_001140 - Custom payload &gt; com.apple.itunes &gt; disableSharedMusic=true
+</string>
+	<key>PayloadDisplayName</key>
+	<string>10.13 STIG - Disable iTunes Sharing</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>7400CD16-DD99-455D-8B7C-7EDD57815DA3</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>7400CD16-DD99-455D-8B7C-7EDD57815DA3</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
