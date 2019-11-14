@@ -46,14 +46,6 @@ fi
 #
 #####################################################################################################
 #
-# Author:   Apple Professional Services
-# Revision History:
-# Date			Version	Personnel				Notes
-# ----			-------	---------				-----
-# 2019-06-09 	1.0		Eric Benfer Apple PS	Script created for U_Apple_OS_X_10-13_V1R2_STIG
-#
-#####################################################################################################
-#
 # USAGE
 # Admins set organizational compliance for each listed item, which gets written to plist.
 # Values default to "true," and must be commented to "false" to disregard as an organizational priority.
