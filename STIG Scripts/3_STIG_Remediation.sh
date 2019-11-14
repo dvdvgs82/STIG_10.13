@@ -44,13 +44,6 @@ fi
 # CAT II	Any vulnerability, the exploitation of which has a potential to result in loss of Confidentiality, Availability, or Integrity.
 # CAT III	Any vulnerability, the existence of which degrades measures to protect against loss of Confidentiality, Availability, or Integrity.
 #
-#####################################################################################################
-#
-# Author:   Apple Professional Services
-# Revision History:
-# Date			Version	Personnel				Notes
-# ----			-------	---------				-----
-# 2019-06-09 	1.0		Eric Benfer Apple PS	Script created for U_Apple_OS_X_10-13_V1R2_STIG
 # 2019-08-12	1.1		Erin McDonald Jamf		added variable for AOSX_13_000330B time server
 #####################################################################################################
 #
