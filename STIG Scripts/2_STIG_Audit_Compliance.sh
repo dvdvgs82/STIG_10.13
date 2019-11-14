@@ -46,14 +46,6 @@ fi
 #
 #####################################################################################################
 #
-# Author:   Apple Professional Services
-# Revision History:
-# Date			Version	Personnel				Notes
-# ----			-------	---------				-----
-# 2019-06-09 	1.0		Eric Benfer Apple PS	Script created for U_Apple_OS_X_10-13_V1R2_STIG
-#
-#####################################################################################################
-#
 # USAGE
 # Reads from plist at $LogDir/STIG_security_score.plist by default.
 # For "true" items, runs query for current computer/user compliance.
